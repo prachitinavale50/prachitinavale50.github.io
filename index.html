@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Prachiti Navale | Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+
+  <header>
+    <nav class="navbar">
+
+      <h2 class="logo">Prachiti.dev</h2>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#add-project">Add Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <!-- ================= HERO SECTION ================= -->
+
+  <section id="hero" class="hero-section">
+
+    <div class="hero-content">
+
+      <h1>
+        Hi, I'm <span>Prachiti Navale</span>
+      </h1>
+
+      <p>
+        Computer Science Student | Full Stack Developer
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+
+  <section id="about" class="section">
+
+    <h2 class="section-title">About Me</h2>
+
+    <p class="about-text">
+      I am a passionate Computer Science student who enjoys building modern
+      web applications and learning new technologies.
+      I love solving real-world problems through coding and creativity.
+    </p>
+
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+
+  <section id="skills" class="section">
+
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-grid">
+
+      <span class="skill-tag">HTML</span>
+      <span class="skill-tag">CSS</span>
+      <span class="skill-tag">JavaScript</span>
+      <span class="skill-tag">React</span>
+      <span class="skill-tag">Node.js</span>
+      <span class="skill-tag">Express.js</span>
+      <span class="skill-tag">MongoDB</span>
+      <span class="skill-tag">Git & GitHub</span>
+
+    </div>
+
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+
+  <section id="projects" class="section">
+
+    <h2 class="section-title">My Projects</h2>
+
+    <div id="projects-container" class="projects-grid">
+
+      <!-- Project Card -->
+
+      <div class="project-card">
+
+        <h3>Home Automation using ESP32</h3>
+
+        <p>
+          Smart home automation system using ESP32 for controlling lights,
+          fans, and appliances through mobile applications and cloud-based
+          systems with real-time monitoring.
+        </p>
+
+        <div class="tech-tags">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">ESP32</span>
+          <span class="tech-tag">IoT</span>
+        </div>
+
+        <a href="https://github.com/"
+          target="_blank"
+          class="project-link">
+          View on GitHub →
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= ADD PROJECT ================= -->
+
+  <section id="add-project" class="section">
+
+    <h2 class="section-title">Add New Project</h2>
+
+    <div class="form-box">
+
+      <input id="title" type="text" placeholder="Project Title">
+
+      <textarea id="description"
+        rows="4"
+        placeholder="Project Description"></textarea>
+
+      <input id="githubLink"
+        type="url"
+        placeholder="GitHub Repository URL">
+
+      <input id="techStack"
+        type="text"
+        placeholder="Tech Used (HTML, CSS, JS...)">
+
+      <button onclick="addProject()" class="btn">
+        + Add Project
+      </button>
+
+      <p id="form-message"></p>
+
+    </div>
+
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+
+  <section id="contact" class="section">
+
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-info">
+
+      <p>
+        📧 Email:
+        <a href="mailto:prachitinavale50@gmail.com">
+          prachitinavale50@gmail.com
+        </a>
+      </p>
+
+      <p>
+        💻 GitHub:
+        <a href="https://github.com/"
+          target="_blank">
+          github.com/yourprofile
+        </a>
+      </p>
+
+      <p>
+        🔗 LinkedIn:
+        <a href="https://linkedin.com/"
+          target="_blank">
+          linkedin.com/in/yourprofile
+        </a>
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+    <p>© 2025 Prachiti Navale | All Rights Reserved</p>
+  </footer>
+
+  <!-- ================= JS ================= -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
